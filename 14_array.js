@@ -19,7 +19,7 @@ console.log(marks_class12)
 console.log(typeof marks_class12) // array is a object
 
 // quick quize print all value with for loop
-for(let i = 0; i < marks_class12.length; i++)
+for(let i = 0; i <= marks_class12.length; i++)
 {
     console.log(marks_class12[i])
 }
