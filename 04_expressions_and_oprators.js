@@ -25,10 +25,11 @@ console.log(c)
 // comparision oprators
 let num1 = 3
 let num2 = 5
+// Both are comparison operators. The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types.
 console.log("num1 == num2 ", num1 == num2) // equal to
 console.log("num1 != num2 ", num1 != num2) // not equal
 console.log("num1 === num2 ", num1 === num2) // equal value and type
-console.log("num1 !== num2 ", num1 != num2) // not equal value or nore equal type
+console.log("num1 !== num2 ", num1 !== num2) // not equal value or nore equal type
 
 // logical oprators
 let x = 5
