@@ -28,6 +28,7 @@ let obj = {
     ritesh: 86,
     priyansh: 56
 }
+// rohit is key a and values or 74 access by object name and key obj[a]
 for(let a in obj){
     console.log("Marks of " + a + " are " + obj[a])
 }

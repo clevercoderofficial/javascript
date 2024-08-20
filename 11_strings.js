@@ -25,3 +25,13 @@ let fruit = "Ban'ana";
 let car = "BM\nW";
 console.log(fruit); // Ban'ana
 console.log(car); // new line print w
+
+// Strings are immutable 
+let str = "rohit";
+
+str[0]= 'p';
+str[1]= 'r';
+console.log(str); // rohit print because of strings are immutable
+
+str = str + " programming" // assign new location not overite previous location
+console.log(str)

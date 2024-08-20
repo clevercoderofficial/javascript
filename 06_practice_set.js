@@ -27,7 +27,7 @@ switch (Age) {
 
 //question no 3
 let num = prompt("enter a number")
-num = Number/parseInt(num)
+num = Number.parseInt(num)
 
 if( num%2==0 && num%3==0)
 {
@@ -39,7 +39,7 @@ else{
 
 //question no 4
 let num1 = prompt("enter a number")
-num1 = Number/parseInt(num1)
+num1 = Number.parseInt(num1)
 
 if( num%2==0 || num%3==0)
 {

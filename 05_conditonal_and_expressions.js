@@ -1,5 +1,6 @@
 let a = prompt("hey whats your age?");
 a = Number.parseInt(a); // converting string to the number
+// parseInt() is a method of number use for convert string to number and its returns an integer value
 console.log(a);
 console.log(typeof a); // number
 
