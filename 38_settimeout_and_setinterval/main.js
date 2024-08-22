@@ -28,3 +28,17 @@ setTimeout(sum, 1000, 3, 5)
 // setInterval(() => {
 //     console.log("set interval :)")
 // }, 3000);
+
+// cleartimeout is used for cancle the execution in cause we change our mind
+let timerid = setTimeout(() => {
+    console.log("hello")
+}, 3000);
+
+clearTimeout(timerid)
+
+// clearInterval is used for cancle the execution in cause we change our mind
+let timerid1 = setInterval(() => {
+    console.log("hello")
+}, 3000);
+
+clearInterval(timerid1)
