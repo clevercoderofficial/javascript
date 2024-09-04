@@ -38,7 +38,7 @@ for(let a in obj){
 // marks of ritesh are 86
 // marks of priyansh are 56
 
-// For in loop
+// For of loop
 for(let b of "Rohit"){
     console.log(b)
 }
@@ -47,3 +47,8 @@ for(let b of "Rohit"){
 // h
 // i
 // t
+
+let cars = ['volvo', 'bmw', 'mustang']
+for(let x of cars){
+    console.log(x)
+}
